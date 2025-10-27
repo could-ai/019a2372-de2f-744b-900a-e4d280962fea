@@ -80,7 +80,8 @@ class _AttendanceScreenState extends State<AttendanceScreen> {
                   ),
                 ),
               ],
-            ),n          ),
+            ),
+          ),
           Expanded(
             child: ListView.builder(
               itemCount: Student.sampleStudents.length,
